@@ -32,7 +32,7 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(255, 247, 230);
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 3px;
@@ -46,7 +46,7 @@ h4 {
 .addUser {
     display: flex;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .top {
@@ -57,12 +57,12 @@ h4 {
     width: 330px;
     justify-content: center;
     display: flex;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 10px;
 }
 
 button {
-    margin-left: 275px;
+    margin-left: 280px;
     margin-top: 10px;
 }
 
