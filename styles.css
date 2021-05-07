@@ -26,7 +26,7 @@ h2 {
 
 h3 {
     color: rgb(255, 247, 230);
-    font-size: 26px;
+    font-size: 22px;
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 3px;
 }
@@ -54,15 +54,15 @@ h4 {
 }
 
 .input-group {
-    width: 350px;
+    width: 330px;
     justify-content: center;
     display: flex;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 10px;
 }
 
 button {
-    margin-left: 285px;
+    margin-left: 265px;
     margin-top: 10px;
 }
 
