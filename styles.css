@@ -54,7 +54,7 @@ h4 {
 }
 
 .input-group {
-    width: 400px;
+    width: 360px;
     justify-content: center;
     display: flex;
     margin-left: 40px;
@@ -62,7 +62,7 @@ h4 {
 }
 
 button {
-    margin-left: 365px;
+    margin-left: 325px;
     margin-top: 10px;
 }
 
