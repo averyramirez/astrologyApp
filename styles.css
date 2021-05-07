@@ -46,7 +46,7 @@ h4 {
 .addUser {
     display: flex;
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .top {
@@ -57,7 +57,7 @@ h4 {
     width: 330px;
     justify-content: center;
     display: flex;
-    margin-left: 15px;
+    margin-left: 20px;
     margin-top: 10px;
 }
 
