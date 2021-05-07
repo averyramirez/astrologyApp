@@ -86,7 +86,7 @@ button {
 
 @media (min-width: 600px){
     body {
-        background-image: url("backgroundDesktop.png") no-repeat center bottom fixed; 
+        background-image: url("backgroundDesktop.png"); 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
