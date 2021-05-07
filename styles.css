@@ -1,5 +1,6 @@
 body {
     background-image: url("backgroundMobile.png"); 
+    background-position: bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -102,10 +103,16 @@ button {
     }
 
     h3 {
-        font-size: 45px;
+        font-size: 30px;
     }
 
     .top {
-        margin-top: 100px;
+        margin-top: 85px;
+    }
+
+    .about {
+        margin-left: 460px;
+        margin-right: 460px;
+        font-size: 24px;
     }
 }
