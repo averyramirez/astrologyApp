@@ -4,11 +4,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     overscroll-behavior: contain;
     margin-bottom: 40px;
-    padding-bottom: 100px;
-    align-content: center;
-    justify-content: center;
+    padding-bottom: 20px;
+    height: 100%;
+    overflow: auto;
 }
 
 html {
@@ -83,7 +86,7 @@ button {
 
 @media (min-width: 600px){
     body {
-        background-image: url("backgroundDesktop.png"); 
+        background-image: url("backgroundDesktop.png") no-repeat center bottom fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -92,8 +95,6 @@ button {
         overscroll-behavior: contain;
         margin-bottom: 40px;
         padding-bottom: 100px;
-        align-content: center;
-        justify-content: center;
     }
 
     h2 {
