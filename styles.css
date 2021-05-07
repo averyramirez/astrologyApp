@@ -37,7 +37,7 @@ h3 {
 }
 
 .top {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 
@@ -63,5 +63,9 @@ h3 {
 
     h3 {
         font-size: 45px;
+    }
+
+    .top {
+        margin-top: 100px;
     }
 }
