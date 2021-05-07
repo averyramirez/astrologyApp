@@ -18,22 +18,22 @@ html {
 
 
 h2 {
-    color: white;
-    font-size: 40px;
+    color: rgb(255, 247, 230);
+    font-size: 44px;
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 5px;
 }
 
 h3 {
-    color: white;
+    color: rgb(255, 247, 230);
     font-size: 26px;
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 3px;
 }
 
 h4 {
-    font-size: 20px;
-    color: white;
+    font-size: 18px;
+    color: rgb(255, 247, 230);
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 3px;
 }
@@ -44,13 +44,26 @@ h4 {
 }
 
 .addUser {
-    justify-content: center;
     display: flex;
     margin-top: 40px;
+    margin-left: 40px;
 }
 
 .top {
     margin-top: 50px;
+}
+
+.input-group {
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+button {
+    margin-left: 365px;
+    margin-top: 10px;
 }
 
 
