@@ -62,8 +62,21 @@ h4 {
 }
 
 button {
-    margin-left: 265px;
+    margin-left: 275px;
     margin-top: 10px;
+}
+
+.about {
+    font-size: 14px;
+    color: rgb(255, 247, 230);
+    font-family: 'Cutive Mono', monospace;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
 }
 
 
