@@ -92,8 +92,9 @@ img {
 
 .icons {
     justify-content: center;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -140,6 +141,10 @@ img {
     img {
         height: 90px;
         width: 90px;
+    }
+
+    .icons {
+        margin-top: 25px;
     }
 
 }
