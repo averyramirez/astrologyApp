@@ -22,14 +22,14 @@ html {
 
 
 h2 {
-    color: rgb(255, 247, 230);
+    color: rgb(255, 255, 255);
     font-size: 48px;
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 5px;
 }
 
 h3 {
-    color: rgb(255, 247, 230);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 3px;
@@ -37,7 +37,7 @@ h3 {
 
 h4 {
     font-size: 16px;
-    color: rgb(255, 247, 230);
+    color: rgb(255, 255, 255);
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 3px;
 }
@@ -72,7 +72,7 @@ button {
 
 .about {
     font-size: 14px;
-    color: rgb(255, 247, 230);
+    color: rgb(255, 255, 255);
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 3px;
     margin-top: 40px;
@@ -81,6 +81,11 @@ button {
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
+}
+
+img {
+    height: 70px;
+    width: 70px;
 }
 
 
@@ -123,4 +128,10 @@ button {
     .addUser {
         margin-top: 100px;
     }
+
+    img {
+        height: 90px;
+        width: 90px;
+    }
+
 }
