@@ -23,6 +23,7 @@ html {
 
 h2 {
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px grey;
     font-size: 48px;
     font-family: 'Cutive Mono', monospace;
     letter-spacing: 5px;
@@ -84,8 +85,15 @@ button {
 }
 
 img {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
+    margin-top: 25px;
+}
+
+.icons {
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 40px;
 }
 
 
