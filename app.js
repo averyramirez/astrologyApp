@@ -1,5 +1,4 @@
-document.getElementById("").onclick = function() {myFunction()};
-
-function myFunction() {
-    document.getElementById("").classList.toggle("show")
-}
+var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+var toastList = toastElList.map(function (toastEl) {
+  return new bootstrap.Toast(toastEl, option)
+})
