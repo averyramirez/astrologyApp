@@ -53,13 +53,6 @@ h4 {
     margin-top: 35px;
 }
 
-.input-group {
-    width: 330px;
-    justify-content: center;
-    display: flex;
-    margin-left: 25px;
-    margin-top: 10px;
-}
 
 button {
     margin-top: 10px;
@@ -139,13 +132,12 @@ img {
         font-size: 22px;
         margin-left: 35px;
         margin-right: 35px;
-        margin-bottom: 0px;
-        margin-top: 45px;
     }
 
     img {
         height: 90px;
         width: 90px;
+        margin-top: 10px;
     }
 
 }
