@@ -116,6 +116,18 @@ img {
     color: white;
 }
 
+.nav-link {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+
+}
+
 
 
 @media (min-width: 600px){
