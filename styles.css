@@ -79,9 +79,10 @@ img {
 
 
 .modal {
-    background-color: transparent;
     margin-top: 200px;
+    color: rgb(51, 51, 51);
 }
+
 
 .button {
     background-color: transparent;
