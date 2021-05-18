@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     overscroll-behavior: contain;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     padding-bottom: 20px;
     height: 100%;
     overflow: auto;
@@ -114,6 +114,7 @@ img {
 
     h2 {
         font-size: 100px;
+        margin-bottom: 50px;
     }
 
     h3 {
