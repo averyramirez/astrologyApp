@@ -62,7 +62,6 @@ h4 {
 }
 
 button {
-    margin-left: 280px;
     margin-top: 10px;
 }
 
@@ -92,6 +91,14 @@ img {
     background-color: transparent;
 }
 
+
+.row {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
 
 
 @media (min-width: 600px){
