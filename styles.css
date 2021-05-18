@@ -83,6 +83,16 @@ img {
     color: rgb(51, 51, 51);
 }
 
+.modal-body {
+    font-family: 'Cutive Mono', monospace;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-title {
+    font-family: 'Cutive Mono', monospace;
+}
+
 
 .button {
     background-color: transparent;
