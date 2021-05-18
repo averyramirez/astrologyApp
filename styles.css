@@ -107,6 +107,16 @@ img {
     display: flex;
 }
 
+.navbar {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+
 
 @media (min-width: 600px){
     body {
@@ -153,5 +163,10 @@ img {
 
     .modal {
         margin-top: 200px;
+    }
+
+    .navbar {
+        margin-left: 360px;
+        margin-right: 360px;
     }
 }
