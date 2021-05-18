@@ -97,6 +97,10 @@ img {
     margin-bottom: 40px;
 }
 
+.modal {
+    margin-top: 100px;
+}
+
 
 
 @media (min-width: 600px){
