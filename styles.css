@@ -48,11 +48,6 @@ h4 {
     display: flex;
 }
 
-.addUser {
-    display: flex;
-    margin-top: 40px;
-    margin-left: 25px;
-}
 
 .top {
     margin-top: 35px;
@@ -79,8 +74,6 @@ button {
     margin-top: 40px;
     justify-content: center;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
     text-align: center;
 }
 
@@ -89,16 +82,10 @@ img {
     width: 60px;
 }
 
-.icons {
-    justify-content: center;
-    margin-left: 50px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
 
 .modal {
-    margin-top: 100px;
     background-color: transparent;
+    margin-top: 200px;
 }
 
 .button {
@@ -139,20 +126,11 @@ img {
 
     .about {
         font-size: 22px;
-        margin-left: 145px;
-    }
-
-    .addUser {
-        margin-top: 100px;
     }
 
     img {
         height: 90px;
         width: 90px;
-    }
-
-    .icons {
-        margin-top: 35px;
     }
 
 }
