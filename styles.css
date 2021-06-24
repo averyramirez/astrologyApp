@@ -23,9 +23,9 @@ html {
 h2 {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px grey;
-    font-size: 36px;
-    font-family: 'Cutive Mono', monospace;
-    letter-spacing: 5px;
+    font-size: 48px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 7px;
 }
 
 h3 {
@@ -62,6 +62,18 @@ button {
     display: flex;
     color: white;
     margin-bottom: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.date {
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .about {
@@ -115,29 +127,6 @@ img {
     justify-content: center;
 }
 
-.navbar {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.navbar-toggler {
-    color: white;
-}
-
-.navbar-toggler-icon {
-    color: white;
-}
-
-.nav-link {
-    color: white;
-    font-family: 'Cutive Mono', monospace;
-}
-
-.navbar-brand {
-    color: white;
-    font-family: 'Cutive Mono', monospace;
-    font-size: 16px;
-}
 
 a:hover {
     color: white;
@@ -160,7 +149,7 @@ a:hover {
     }
 
     h2 {
-        font-size: 80px;
+        font-size: 84px;
     }
 
     h3 {
@@ -198,5 +187,13 @@ a:hover {
     .navbar {
         margin-left: 360px;
         margin-right: 360px;
+    }
+
+    .tagline {
+        font-size: 24px;
+    }
+
+    .date {
+        font-size: 32px;
     }
 }
