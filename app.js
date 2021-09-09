@@ -1,6 +1,119 @@
-var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
+//Aries
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=aries&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
 
-myModal.addEventListener('shown.bs.modal', function () {
-  myInput.focus()
-})
+//Taurus
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=taurus&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
+
+//Gemini
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=gemini&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
+
+//Cancer
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=cancer&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
+
+//Leo
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=leo&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
+
+//Virgo
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=virgo&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
+
+//Libra
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=libra&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
+
+//Scorpio
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=scorpio&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
+
+//Sagittarius
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=sagittarius&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
+
+//Capricorn
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=capricorn&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
+
+//Aquarius
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=aquarius&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
+
+//Pisces
+{$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=pisces&day=today',
+    success:function(data){
+    console.log(data.description);
+    }
+     });
+}
