@@ -19,14 +19,6 @@ html {
     height: 100%;
 }
 
-
-.brand {
-    width: 25px;
-    height: 25px;
-    margin-left: 10px;
-}
-
-
 h2 {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px grey;
@@ -35,12 +27,11 @@ h2 {
     letter-spacing: 7px;
 }
 
-
 .header {
     justify-content: center;
     display: flex;
+    margin-top: 10px;
 }
-
 
 .top {
     margin-top: 35px;
@@ -49,7 +40,6 @@ h2 {
 button {
     margin-top: 10px;
 }
-
 
 .date {
     justify-content: center;
@@ -61,12 +51,10 @@ button {
     margin-top: 5px;
 }
 
-
 img {
     height: 80px;
     width: 80px;
 }
-
 
 .modal {
     margin-top: 100px;
@@ -84,7 +72,6 @@ img {
     font-family: 'Cutive Mono', monospace;
 }
 
-
 .button {
     background-color: transparent;
 }
@@ -94,7 +81,6 @@ img {
     box-shadow: none !important;
 }
 
-
 .row {
     display: flex;
 }
@@ -103,7 +89,6 @@ img {
     display: flex;
     justify-content: center;
 }
-
 
 a:hover {
     color: white;
@@ -133,13 +118,12 @@ a:hover {
         padding-bottom: 50px;
     }
 
-    .brand {
-        width: 45px;
-        height: 45px;
-    }
-
     h2 {
         font-size: 90px;
+    }
+
+    .header {
+        margin-top: 30px;
     }
 
     img {
@@ -162,7 +146,7 @@ a:hover {
     }
 
     .date {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .bottom {
