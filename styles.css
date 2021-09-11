@@ -100,7 +100,13 @@ a:hover {
     margin-top: 40px;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 3px;
-    font-size: 10px;
+    font-size: 11px;
+}
+
+.bottomLogo {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
 }
 
 
@@ -151,5 +157,11 @@ a:hover {
 
     .bottom {
         font-size: 14px;
+    }
+
+    .bottomLogo {
+        height: 40px;
+        width: 40px;
+        margin-bottom: 10px;
     }
 }
