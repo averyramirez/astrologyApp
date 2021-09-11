@@ -22,7 +22,7 @@ html {
 h2 {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px grey;
-    font-size: 48px;
+    font-size: 44px;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 7px;
 }
@@ -30,7 +30,7 @@ h2 {
 .header {
     justify-content: center;
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .top {
@@ -52,8 +52,8 @@ button {
 }
 
 img {
-    height: 80px;
-    width: 80px;
+    height: 75px;
+    width: 75px;
 }
 
 .modal {
