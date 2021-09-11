@@ -45,6 +45,7 @@ h4 {
 .header {
     justify-content: center;
     display: flex;
+    margin-top: 10px;
 }
 
 
@@ -160,7 +161,7 @@ a:hover {
         font-size: 22px;
     }
 
-    .top {
+    .header {
         margin-top: 30px;
     }
 
