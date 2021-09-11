@@ -54,8 +54,8 @@ button {
 }
 
 img {
-    height: 70px;
-    width: 70px;
+    height: 75px;
+    width: 75px;
 }
 
 .modal {
@@ -106,7 +106,7 @@ a:hover {
 
 .bottom {
     color: white;
-    margin-top: 20px;
+    margin-top: 40px;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 3px;
     font-size: 11px;
@@ -175,6 +175,7 @@ a:hover {
 
     .bottom {
         font-size: 14px;
+        margin-top: 60px;
     }
 
     .bottomLogo {
