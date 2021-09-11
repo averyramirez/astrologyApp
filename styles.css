@@ -1,6 +1,6 @@
 body {
-    background-image: url("backgroundMobile.png"); 
-    background-position: bottom;
+    background-image: url("https://images.unsplash.com/photo-1502252430442-aac78f397426?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"); 
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -141,7 +141,7 @@ a:hover {
 
 @media (min-width: 600px){
     body {
-        background-image: url("backgroundDesktop.png");
+        background-image: url("https://images.unsplash.com/photo-1502252430442-aac78f397426?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
         background-position: top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -157,6 +157,8 @@ a:hover {
 
     h2 {
         font-size: 90px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1.4px 1.4px grey;
     }
 
     .header {
@@ -205,8 +207,8 @@ a:hover {
     }
 
     .row {
-        margin-left: 220px;
-        margin-right: 220px;
+        margin-left: 250px;
+        margin-right: 250px;
         margin-top: 20px;
     }
 
