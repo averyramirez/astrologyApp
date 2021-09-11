@@ -103,7 +103,6 @@ img {
 a {
     text-decoration: none;
     color: white !important;
-    margin-bottom: 5px;
     padding-left: 2px;
     padding-right: 2px;
 }
@@ -130,6 +129,15 @@ a:hover {
     width: 25px;
     height: 25px;
     margin-bottom: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
 
