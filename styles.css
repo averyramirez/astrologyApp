@@ -21,6 +21,7 @@ html {
     height: 100%;
 }
 
+
 h2 {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px grey;
@@ -99,9 +100,22 @@ img {
     justify-content: center;
 }
 
+a {
+    text-decoration: none;
+    color: white !important;
+    margin-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white !important;
+}
+
 a:hover {
     color: white;
-    text-shadow: 2px 2px rgb(141, 68, 39)
+    text-shadow: 2px 2px rgb(141, 141, 141)
 }
 
 .bottom {
