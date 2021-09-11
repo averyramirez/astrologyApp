@@ -72,14 +72,14 @@ button {
     display: flex;
     color: white;
     font-family: 'Oswald', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 2px;
 }
 
 
 img {
-    height: 82px;
-    width: 82px;
+    height: 75px;
+    width: 75px;
 }
 
 
@@ -127,7 +127,7 @@ a:hover {
 
 .bottom {
     color: white;
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 3px;
     font-size: 10px;
@@ -190,7 +190,7 @@ a:hover {
     }
 
     .date {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .bottom {
