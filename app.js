@@ -3,7 +3,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=aries&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#ariesDaily').append(data.description)
     }
      });
 }
@@ -13,7 +13,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=taurus&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#taurusDaily').append(data.description)
     }
      });
 }
@@ -23,7 +23,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=gemini&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#geminiDaily').append(data.description)
     }
      });
 }
@@ -33,7 +33,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=cancer&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#cancerDaily').append(data.description)
     }
      });
 }
@@ -43,7 +43,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=leo&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#leoDaily').append(data.description)
     }
      });
 }
@@ -53,7 +53,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=virgo&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#virgoDaily').append(data.description)
     }
      });
 }
@@ -63,7 +63,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=libra&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#libraDaily').append(data.description)
     }
      });
 }
@@ -73,7 +73,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=scorpio&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#scorpioDaily').append(data.description)
     }
      });
 }
@@ -83,7 +83,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=sagittarius&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#sagittariusDaily').append(data.description)
     }
      });
 }
@@ -93,7 +93,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=capricorn&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#capricornDaily').append(data.description)
     }
      });
 }
@@ -103,7 +103,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=aquarius&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#aquariusDaily').append(data.description)
     }
      });
 }
@@ -113,7 +113,7 @@
     type:'POST',
     url:'https://aztro.sameerkumar.website?sign=pisces&day=today',
     success:function(data){
-    console.log(data.description);
+    $('#piscesDaily').append(data.description)
     }
      });
 }
