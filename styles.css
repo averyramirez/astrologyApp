@@ -1,5 +1,5 @@
 body {
-    background-image: url("./images/ice.jpg"); 
+    background-image: url("./images/forest.jpg"); 
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -147,7 +147,7 @@ a:hover {
 
 @media (min-width: 600px){
     body {
-        background-image: url("./images/ice.jpg"); 
+        background-image: url("./images/forest.jpg"); 
         background-position: top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
