@@ -81,7 +81,7 @@ img {
     font-family: 'Cutive Mono', monospace;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .modal-title {
@@ -195,7 +195,7 @@ a:hover {
     }
 
     .modal-body {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .navbar {
