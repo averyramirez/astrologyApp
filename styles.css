@@ -152,15 +152,15 @@ a:hover {
     display: flex;
 }
 
-.phaseText {
-    color: white;
+#phaseInfo {
+    color: white !important;
     margin-left: 20px;
     margin-right: 20px;
     font-family: 'Oswald', sans-serif;
     font-size: 10px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-top: 15px;
-
+    margin-bottom: 10px;
 }
 
 img {
@@ -258,8 +258,9 @@ img {
         color: white;
     }
 
-    .phaseText {
+    #phaseInfo {
         font-size: 18px;
+        margin-bottom: 10px;
     }
 
     img {

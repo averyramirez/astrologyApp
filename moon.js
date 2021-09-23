@@ -10,7 +10,7 @@ async function getMoon(){
     const response = await fetch(todaysMoon);
     const data = await response.json();
     console.log(data[0]["Phase"]);
-    console.log(data[0]["Illumination"]);
+    console.log((data[0]["Illumination"]) * 100);
     if(data[0]["Phase"] === "New Moon" ) {
         var img = new Image(); 
         var div = document.getElementById('moonPhase'); 
@@ -66,9 +66,8 @@ async function getMoon(){
         img.onload = function() { 
         div.appendChild(img); 
     }; img.src = 'phases/waningCrescent.png';
-    } 
-    
-
+    }
+    document.getElementById('phaseInfo').innerText = `The moon is ${(data[0]["Illumination"]) * 100}% illuminated and in the ${(data[0]["Phase"])} phase.`;
 }
 
 getMoon();
