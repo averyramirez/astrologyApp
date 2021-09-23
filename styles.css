@@ -13,6 +13,8 @@ body {
     overflow: auto;
     padding-right:0px !important;
     margin-right:0px !important;
+    background-attachment:fixed; 
+    background-repeat: no-repeat;
 }
 
 .bg {
@@ -86,6 +88,7 @@ button {
 
 .modal-title {
     font-family: 'Cutive Mono', monospace;
+    color: black !important;
 }
 
 .button {
@@ -170,7 +173,7 @@ img {
 
 @media (min-width: 600px){
     body {
-        background-position: center;
+        background-position: top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -181,6 +184,8 @@ img {
         padding-bottom: 50px;
         padding-right:0px !important;
         margin-right:0px !important;
+        background-attachment:fixed; 
+        background-repeat: no-repeat;
     }
 
     .bg {
