@@ -59,7 +59,7 @@ button {
     margin-top: 5px;
 }
 
-img {
+.signImg {
     height: 75px;
     width: 75px;
 }
@@ -159,6 +159,11 @@ a:hover {
 
 }
 
+img {
+    width: 60px;
+    height: 60px;
+}
+
 
 
 @media (min-width: 600px){
@@ -192,7 +197,7 @@ a:hover {
         margin-top: 60px;
     }
 
-    img {
+    .signImg {
         height: 115px;
         width: 115px;
         margin-top: 15px;
@@ -243,6 +248,15 @@ a:hover {
 
     h5 {
         color: white;
+    }
+
+    .phaseText {
+        font-size: 18px;
+    }
+
+    img {
+        width: 85px;
+        height: 85px;
     }
 
 }
