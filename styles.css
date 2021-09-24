@@ -58,12 +58,11 @@ button {
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     letter-spacing: 2px;
-    margin-top: 5px;
 }
 
 .signImg {
-    height: 75px;
-    width: 75px;
+    height: 80px;
+    width: 80px;
     opacity: 1 !important;
 }
 
@@ -195,9 +194,10 @@ img {
 
 
     h2 {
-        font-size: 90px;
+        font-size: 100px;
         color: rgb(255, 255, 255);
         text-shadow: 1.4px 1.4px grey;
+        letter-spacing: 10px;
     }
 
     .header {
@@ -205,14 +205,14 @@ img {
     }
 
     .signImg {
-        height: 115px;
-        width: 115px;
+        height: 120px;
+        width: 120px;
         margin-top: 15px;
         opacity: 1 !important;
     }
 
     .modal {
-        margin-top: 250px;
+        margin-top: 230px;
         overflow-y: auto;
         padding-right: 0px !important;
     }
@@ -234,7 +234,7 @@ img {
     .date {
         font-size: 16px;
         margin-top: 0px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .bottom {
@@ -249,8 +249,8 @@ img {
     }
 
     .row {
-        margin-left: 250px;
-        margin-right: 250px;
+        margin-left: 260px;
+        margin-right: 260px;
         margin-top: 20px;
     }
 
