@@ -153,13 +153,17 @@ a:hover {
 
 #phaseInfo {
     color: white !important;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 55px;
+    margin-right: 55px;
     font-family: 'Oswald', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
     letter-spacing: 1px;
     margin-top: 15px;
     margin-bottom: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: justify !important;
+    display: flex;
 }
 
 img {
