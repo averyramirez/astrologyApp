@@ -9,8 +9,9 @@ const todaysMoon = `${url}${time}`
 async function getMoon(){
     const response = await fetch(todaysMoon);
     const data = await response.json();
-    console.log(data[0]["Phase"]);
-    console.log((data[0]["Illumination"]) * 100);
+    console.log(data)
+    // console.log(data[0]["Phase"]);
+    // console.log((data[0]["Illumination"]) * 100);
     if(data[0]["Phase"] === "New Moon" ) {
         var img = new Image(); 
         var div = document.getElementById('moonPhase'); 
