@@ -117,28 +117,7 @@ a:hover {
     text-shadow: 2px 2px rgb(141, 141, 141)
 }
 
-.bottom {
-    color: white;
-    margin-top: 40px;
-    font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 3px;
-    font-size: 11px;
-}
 
-.bottomLogo {
-    width: 20px;
-    height: 20px;
-    margin-bottom: 5px;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-}
 
 .row {
     margin-left: 20px;
@@ -241,16 +220,6 @@ img {
         margin-bottom: 20px;
     }
 
-    .bottom {
-        font-size: 14px;
-        margin-top: 60px;
-    }
-
-    .bottomLogo {
-        height: 35px;
-        width: 35px;
-        margin-bottom: 10px;
-    }
 
     .row {
         margin-left: 260px;
