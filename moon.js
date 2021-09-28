@@ -54,7 +54,7 @@ async function getMoon(){
         div.appendChild(img); 
     }; img.src = 'phases/waningGibbous.png';
     } 
-    if(data[0]["Phase"] === "Last Quarter" ) {
+    if(data[0]["Phase"] === "3rd Quarter" ) {
         var img = new Image(); 
         var div = document.getElementById('moonPhase'); 
         img.onload = function() { 
