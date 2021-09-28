@@ -37,6 +37,14 @@ h2 {
     letter-spacing: 7px;
 }
 
+h3 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px grey;
+    font-size: 38px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 6px;
+}
+
 .header {
     justify-content: center;
     display: flex;
@@ -61,8 +69,8 @@ button {
 }
 
 .signImg {
-    height: 80px;
-    width: 80px;
+    height: 85px;
+    width: 85px;
     opacity: 1 !important;
 }
 
@@ -125,10 +133,7 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.moonPhase {
-    justify-content: center !important;
-    display: flex;
-}
+
 
 #phaseInfo {
     color: white !important;
@@ -145,6 +150,7 @@ a:hover {
     display: flex;
 }
 
+
 #mercuryRetrograde {
     color: white !important;
     margin-left: 55px;
@@ -160,16 +166,10 @@ a:hover {
     display: flex;
 }
 
-#mercurySymbol {
-    width: 65px !important;
-    height: 65px !important;
-    opacity: 1 !important;
-}
-
 img {
-    width: 60px;
-    height: 60px;
-    opacity: 0.8;
+    width: 65px;
+    height: 65px;
+    display: flex;
 }
 
 
@@ -202,6 +202,10 @@ img {
         color: rgb(255, 255, 255);
         text-shadow: 1.4px 1.4px grey;
         letter-spacing: 10px;
+    }
+
+    h3 {
+        font-size: 60px;
     }
 
     .header {
@@ -253,26 +257,21 @@ img {
     }
 
     #phaseInfo {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-
-    #mercuryRetrograde {
-        font-size: 18px;
+        font-size: 24px;
+        margin-top: 30px;
         margin-bottom: 20px;
     }
 
-    #mercurySymbol {
-        width: 90px !important;
-        height: 90px !important;
-        opacity: 1 !important;
+    #mercuryRetrograde {
+        font-size: 24px;
+        margin-bottom: 30px;
     }
 
     img {
-        width: 85px;
-        height: 85px;
-        opacity: 0.8;
+        width: 130px;
+        height: 130px;
     }
+
 
 
 }
