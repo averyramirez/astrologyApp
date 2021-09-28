@@ -69,7 +69,7 @@ async function getMoon(){
         div.appendChild(img); 
     }; img.src = 'phases/waningCrescent.png';
     }
-    document.getElementById('phaseInfo').innerText = `The moon is ${(data[0]["Illumination"]) * 100}% illuminated and in the ${(data[0]["Phase"])} phase.`;
+    document.getElementById('phaseInfo').innerText = `The moon is ${(data[0]["Illumination"]) * 100}% illuminated and is in its ${(data[0]["Phase"])} phase.`;
 }
 
 getMoon();
