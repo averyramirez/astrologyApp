@@ -18,7 +18,7 @@ async function getMercury(){
     }; 
     img.src = 'mercury.png';
     document.getElementById('mercuryRetrograde').innerText = `Mercury is currently in retrograde. Tread carefully.`;
-    console.log(data)
+    // console.log(data)
     }
     else {
         console.log("Mercury is not currently in Retrograde.")
