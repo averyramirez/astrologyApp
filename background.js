@@ -15,8 +15,6 @@ var images = [
     'https://images.unsplash.com/photo-1632148734094-0017109ff3a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2060&q=80',
     //Port
     'https://images.unsplash.com/photo-1632175497777-b634a3536237?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
-    //Lake House
-    'https://images.unsplash.com/photo-1630140963003-45211be72a0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1931&q=80',
 ];
 
     var n = Math.floor(Math.random()*images.length);
