@@ -133,9 +133,9 @@ a:hover {
     margin-bottom: 30px;
 }
 
-/* .transits {
+.transits {
     display: none;
-} */
+}
 
 
 #phaseInfo {
@@ -260,9 +260,9 @@ img {
         color: white;
     }
 
-    /* .transits {
+    .transits {
         display: block;
-    } */
+    }
 
     #phaseInfo {
         font-size: 24px;
