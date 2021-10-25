@@ -1,0 +1,1 @@
+const Astronomy = require('./astronomy.js');
