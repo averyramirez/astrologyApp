@@ -68,6 +68,15 @@ button {
     letter-spacing: 2px;
 }
 
+.positions {
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
 .signImg {
     height: 85px;
     width: 85px;
@@ -245,6 +254,11 @@ img {
 
     .date {
         font-size: 16px;
+        margin-top: 0px;
+    }
+
+    .positions {
+        font-size: 12px;
         margin-top: 0px;
         margin-bottom: 20px;
     }
