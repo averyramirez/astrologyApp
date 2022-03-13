@@ -13,12 +13,11 @@ body {
     overflow: auto;
     padding-right:0px !important;
     margin-right:0px !important;
-    background-attachment:fixed; 
-    background-repeat: no-repeat;
+    background-image: url('moonBackground.png');
 }
 
 .bg {
-    background-attachment:fixed; 
+    background-attachment: fixed; 
     background-repeat: no-repeat;
 }
 
@@ -49,6 +48,23 @@ h3 {
     justify-content: center;
     display: flex;
     margin-top: 20px;
+    animation: moveDown 1.5s ease-in-out;
+}
+
+@keyframes moveDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    80% {
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 .top {
@@ -66,6 +82,20 @@ button {
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     letter-spacing: 2px;
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 .positions {
@@ -77,10 +107,14 @@ button {
     letter-spacing: 2px;
 }
 
+
 .signImg {
     height: 85px;
     width: 85px;
     opacity: 1 !important;
+    background-color: rgba(32, 32, 32, 0.288);
+    border-radius: 10px 10px;
+    padding: 5px;
 }
 
 .modal {
@@ -189,7 +223,7 @@ img {
 
 @media (min-width: 600px){
     body {
-        background-position: top;
+        background-position: center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -200,14 +234,14 @@ img {
         padding-bottom: 50px;
         padding-right:0px !important;
         margin-right:0px !important;
-        background-attachment:fixed; 
+        background-attachment: fixed; 
         background-repeat: no-repeat;
     }
 
-    .bg {
-        background-attachment:fixed; 
+    /* .bg {
+        background-attachment: fixed; 
         background-repeat: no-repeat;
-    }
+    } */
 
 
     h2 {
@@ -247,11 +281,6 @@ img {
         font-size: 18px;
     }
 
-    .navbar {
-        margin-left: 360px;
-        margin-right: 360px;
-    }
-
     .date {
         font-size: 16px;
         margin-top: 0px;
@@ -265,8 +294,8 @@ img {
 
 
     .row {
-        margin-left: 260px;
-        margin-right: 260px;
+        margin-left: 290px;
+        margin-right: 290px;
         margin-top: 20px;
     }
 
