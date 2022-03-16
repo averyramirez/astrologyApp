@@ -101,7 +101,7 @@ button {
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     letter-spacing: 2px;
-    animation: fadeIn 5s ease-in;
+    animation: fadeIn 4s ease-in;
 }
 
 @keyframes fadeIn {
