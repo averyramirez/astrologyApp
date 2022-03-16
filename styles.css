@@ -65,7 +65,7 @@ h3 {
     white-space: nowrap;
     font-size: 44px;
     color: #fff;
-    animation: moveDown 2s;
+    animation: moveDown 1.3s;
     animation-delay: calc(.2s * var(--i));
     animation-fill-mode: both;
   }
