@@ -48,8 +48,29 @@ h3 {
     justify-content: center;
     display: flex;
     margin-top: 20px;
-    animation: moveDown 1.5s ease-in-out;
+    overflow: hidden;
+    /* animation: moveDown 1.5s ease-in-out; */
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px grey;
+    font-size: 44px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 7px;
+    position: relative;
 }
+
+.header span {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 44px;
+    color: #fff;
+    animation: moveDown 2s;
+    animation-delay: calc(.2s * var(--i));
+    animation-fill-mode: both;
+  }
+
+
 
 @keyframes moveDown {
     0% {
@@ -57,9 +78,7 @@ h3 {
         transform: translateY(-100px);
     }
 
-    80% {
-        transform: translateY(0);
-    }
+
 
     100% {
         opacity: 1;
@@ -82,7 +101,7 @@ button {
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     letter-spacing: 2px;
-    animation: fadeIn 1.5s ease-in;
+    animation: fadeIn 5s ease-in;
 }
 
 @keyframes fadeIn {
@@ -256,7 +275,11 @@ img {
     }
 
     .header {
-        margin-top: 60px;
+        margin-top: 40px;
+    }
+
+    .header span {
+        font-size: 100px;
     }
 
     .signImg {
