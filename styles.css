@@ -128,8 +128,8 @@ button {
 
 
 .signImg {
-    height: 85px;
-    width: 85px;
+    height: 90px;
+    width: 90px;
     opacity: 1 !important;
     background-color: rgba(32, 32, 32, 0.288);
     border-radius: 10px 10px;
@@ -195,9 +195,6 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.transits {
-    display: none;
-}
 
 
 #phaseInfo {
@@ -209,9 +206,7 @@ a:hover {
     letter-spacing: 1px;
     margin-top: 15px;
     margin-bottom: 10px;
-    text-align: justify;
-    text-justify: inter-word;
-    text-align-last: justify !important;
+    text-align: center;
     display: flex;
 }
 
@@ -225,18 +220,31 @@ a:hover {
     letter-spacing: 1px;
     margin-top: 15px;
     margin-bottom: 10px;
-    text-align: justify;
-    text-justify: inter-word;
-    text-align-last: justify !important;
+    text-align: center;
     display: flex;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+#transitText {
+    background-color: rgba(32, 32, 32, 0.288);
+    border-radius: 10px 10px;
+    padding: 5px;
     display: flex;
-    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
 }
+
+#mercurySymbol {
+    margin-bottom: 15px;
+}
+
+
+
+img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+}
+
 
 
 
@@ -283,8 +291,8 @@ img {
     }
 
     .signImg {
-        height: 120px;
-        width: 120px;
+        height: 140px;
+        width: 140px;
         margin-top: 15px;
         opacity: 1 !important;
     }
@@ -326,25 +334,35 @@ img {
         color: white;
     }
 
-    .transits {
-        display: block;
-    }
 
     #phaseInfo {
         font-size: 24px;
         margin-top: 30px;
         margin-bottom: 20px;
+        text-align: right;
     }
 
     #mercuryRetrograde {
         font-size: 24px;
         margin-bottom: 30px;
+        text-align: right;
     }
+
+    #mercurySymbol {
+        margin-bottom: 5px;
+    }
+
+
+    
 
     img {
         width: 130px;
         height: 130px;
     }
+
+    /* #transitText {
+        margin-left
+    } */
 
 
 
