@@ -10,7 +10,6 @@ body {
     overscroll-behavior: contain;
     padding-bottom: 50px;
     height: 100%;
-    overflow: auto;
     padding-right:0px !important;
     margin-right:0px !important;
     background-image: url('moonBackground.png');
