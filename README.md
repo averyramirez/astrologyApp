@@ -1,6 +1,6 @@
 ## Oscillations
 
-"Oscillations" is an astrology web app I created that uses an API to provide the user with a daily horoscope reading for their sun sign. Background randomly populates after refresh.
+"Oscillations" is an astrology web app I created that uses an API to provide the user with a daily horoscope reading for their sun sign.
 
 - Hosted as a [page](https://averyramirez.github.io/astrologyApp/) on GitHub
 - Created using Bootstrap, JavaScript and jQuery
